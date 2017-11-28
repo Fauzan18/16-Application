@@ -15,6 +15,11 @@
 		585439471FCD474900A2BAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585439451FCD474900A2BAE8 /* LaunchScreen.storyboard */; };
 		585439521FCD474900A2BAE8 /* My_NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585439511FCD474900A2BAE8 /* My_NoteTests.swift */; };
 		5854395D1FCD474900A2BAE8 /* My_NoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5854395C1FCD474900A2BAE8 /* My_NoteUITests.swift */; };
+		5854396B1FCD480100A2BAE8 /* cb7fbd860947d063c101701130bf181d--flash-superhero-hero-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5854396A1FCD480000A2BAE8 /* cb7fbd860947d063c101701130bf181d--flash-superhero-hero-logo.jpg */; };
+		5854396D1FCD4AA200A2BAE8 /* MNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5854396C1FCD4AA200A2BAE8 /* MNoteViewController.swift */; };
+		5854396F1FCD4AAB00A2BAE8 /* RNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5854396E1FCD4AAB00A2BAE8 /* RNoteViewController.swift */; };
+		585439711FCD4ABA00A2BAE8 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585439701FCD4ABA00A2BAE8 /* NoteTableViewController.swift */; };
+		585439731FCD4AC600A2BAE8 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585439721FCD4AC600A2BAE8 /* NoteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		585439581FCD474900A2BAE8 /* My NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My NoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5854395C1FCD474900A2BAE8 /* My_NoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_NoteUITests.swift; sourceTree = "<group>"; };
 		5854395E1FCD474900A2BAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5854396A1FCD480000A2BAE8 /* cb7fbd860947d063c101701130bf181d--flash-superhero-hero-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cb7fbd860947d063c101701130bf181d--flash-superhero-hero-logo.jpg"; sourceTree = "<group>"; };
+		5854396C1FCD4AA200A2BAE8 /* MNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNoteViewController.swift; sourceTree = "<group>"; };
+		5854396E1FCD4AAB00A2BAE8 /* RNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNoteViewController.swift; sourceTree = "<group>"; };
+		585439701FCD4ABA00A2BAE8 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		585439721FCD4AC600A2BAE8 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				585439391FCD474900A2BAE8 /* AppDelegate.swift */,
 				5854393B1FCD474900A2BAE8 /* ViewController.swift */,
 				5854393D1FCD474900A2BAE8 /* Main.storyboard */,
+				5854396A1FCD480000A2BAE8 /* cb7fbd860947d063c101701130bf181d--flash-superhero-hero-logo.jpg */,
 				585439431FCD474900A2BAE8 /* Assets.xcassets */,
 				585439451FCD474900A2BAE8 /* LaunchScreen.storyboard */,
 				585439481FCD474900A2BAE8 /* Info.plist */,
 				585439401FCD474900A2BAE8 /* My_Note.xcdatamodeld */,
+				5854396C1FCD4AA200A2BAE8 /* MNoteViewController.swift */,
+				5854396E1FCD4AAB00A2BAE8 /* RNoteViewController.swift */,
+				585439701FCD4ABA00A2BAE8 /* NoteTableViewController.swift */,
+				585439721FCD4AC600A2BAE8 /* NoteTableViewCell.swift */,
 			);
 			path = "My Note";
 			sourceTree = "<group>";
@@ -238,6 +253,7 @@
 				585439471FCD474900A2BAE8 /* LaunchScreen.storyboard in Resources */,
 				585439441FCD474900A2BAE8 /* Assets.xcassets in Resources */,
 				5854393F1FCD474900A2BAE8 /* Main.storyboard in Resources */,
+				5854396B1FCD480100A2BAE8 /* cb7fbd860947d063c101701130bf181d--flash-superhero-hero-logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +280,10 @@
 			files = (
 				5854393C1FCD474900A2BAE8 /* ViewController.swift in Sources */,
 				5854393A1FCD474900A2BAE8 /* AppDelegate.swift in Sources */,
+				5854396F1FCD4AAB00A2BAE8 /* RNoteViewController.swift in Sources */,
+				585439711FCD4ABA00A2BAE8 /* NoteTableViewController.swift in Sources */,
+				5854396D1FCD4AA200A2BAE8 /* MNoteViewController.swift in Sources */,
+				585439731FCD4AC600A2BAE8 /* NoteTableViewCell.swift in Sources */,
 				585439421FCD474900A2BAE8 /* My_Note.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
